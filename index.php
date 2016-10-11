@@ -49,7 +49,7 @@ if (isset($submit) && $submit === 'submit') {
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/stylesheet.css">
-        <title><?php echo (isset($message)) ? $message : 'Contact Form Version 1.0'; ?></title>
+        <title>Contact Form Version 1.0</title>
     </head>
     <body>
         <div class="header">
@@ -59,7 +59,7 @@ if (isset($submit) && $submit === 'submit') {
 
             <fieldset>
 
-                <legend>Contact Details</legend>
+                <legend><?php echo (isset($message)) ? $message : 'Contact Details'; ?></legend>
 
                 <label for="name" accesskey="U">Your Name</label>
                 <input name="name" type="text" id="name" placeholder="Enter your name" required="required" />
