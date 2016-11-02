@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #2e2e2e;
+    background-color: #aec4de;
     padding: 0;
     margin: 0;
 }
@@ -11,9 +11,9 @@ body {
 div.header {
     display: block;
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     height: 150px;
-    background-color: #000000;
+    background-color: #ebdb8d;
     padding: 0;
     margin: 20px auto;
 }
@@ -22,7 +22,7 @@ div.header h1 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 3.2rem;
     line-height: 150px;
-    color: lightskyblue;
+    color: #2e2e2e;
     text-align: center;
 }
 
@@ -31,13 +31,13 @@ form#contact {
     width: 100%;
     max-width: 800px;
     height: auto;
-    background-color: #000000;
+    background-color: #ebdb8d;
     padding: 20px;
     margin: 0 auto 20px;
 }
 
 form#contact fieldset {
-    border: 2px solid #FFFFFF;
+    border: 2px solid #2e2e2e;
     padding: 30px;
     margin-bottom: 20px;
 }
@@ -45,7 +45,7 @@ form#contact fieldset {
 form#contact fieldset legend {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 1.4rem;
-    color: #FFFFFF;
+    color: #2e2e2e;
     padding: 0 5px;
 }
 
@@ -58,7 +58,7 @@ form#contact fieldset label {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     line-height: 30px;
-    color: #FFFFFF;
+    color: #2e2e2e;
     text-align: right;
     padding: 0 10px;
 }
@@ -73,22 +73,22 @@ form#contact fieldset input {
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
-    color: #000000;
+    color: #2e2e2e;
     padding: 0 5px;
     margin-bottom: 10px;
 }
 
-form#contact  fieldset .radioBlock {
+form#contact fieldset .radioBlock {
     display: block;
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 form#contact fieldset input[type=radio] {
     display: none;
-    margin: 10px; 
+    margin: 10px;
 }
 
 form#contact fieldset input[type=radio] + label.radioStyle {
@@ -99,20 +99,22 @@ form#contact fieldset input[type=radio] + label.radioStyle {
     text-align: center;
     text-transform: capitalize;
     cursor: pointer;
-    background-color: #3F4E70;
-    border: 1px solid #FFFFFF;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #ffa;
     line-height: 45px;
-    margin: 10px auto 0 auto; 
+    margin: 10px auto 0 auto;
 }
 
 form#contact fieldset input[type=radio] + label.radioStyle:hover {
-    background-color: #516591; 
+    background-color: #aaa;
+    color: #ffa;
 }
 
 form#contact fieldset input[type=radio]:checked + label.radioStyle {
     background-image: none;
     color: #ffa;
-    background-color: #516591; 
+    background-color: #aaa;
 }
 
 form#contact fieldset label.textBox {
@@ -142,18 +144,19 @@ form#contact input[type=submit] {
     display: block;
     width: 100%;
     max-width: 120px;
-    height: 30px;
+    height: 40px;
     cursor: pointer;
-    background-color: #516591;
+    border: 3px solid #ffa;
+    background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
-    line-height: 30px;
-    color: #FFFFFF;
+    color: #fff;
     text-transform: capitalize;
     margin-left: 640px;
 }
 
 form#contact input[type=submit]:hover {
     color: #ffa;
-    background-color: #7f007f;
+    background-color: #aaa;
 }
+
