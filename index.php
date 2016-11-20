@@ -29,7 +29,7 @@ if (isset($submit) && $submit === 'submit') {
 
     $mail->From = $email;
     $mail->FromName = $name;
-    $mail->addAddress('jrpepp@pepster.com');
+    $mail->addAddress('sample@email.com');
     $mail->Subject = $subject;
     $mail->Body = '<p style="color:#3F4E70;font-family: Arial, Helvetica, sans-serif;font-size: 1.2rem; line-height: 1.5;">' . $comments . '</p><p style="color:#3F4E70;font-family: Arial, Helvetica, sans-serif;font-size: 1.2rem; line-height: 1.5;">' . $phone . '</p>';
     $mail->isHTML(true);
